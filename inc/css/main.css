@@ -39,7 +39,8 @@ span {
   @media (min-width: 1080px) {
     .card {
       max-width: 70rem;
-      grid-template-areas: "content image"; } }
+      grid-template-areas: "content image";
+      grid-template-columns: 50% 50%; } }
   .card-body {
     padding: 2.825rem 2.125rem 2.5rem;
     text-align: center;
@@ -49,7 +50,6 @@ span {
     flex-direction: column; }
     @media (min-width: 1080px) {
       .card-body {
-        width: 50%;
         padding-left: 4.375rem;
         padding-right: 4.375rem;
         text-align: left; } }
@@ -94,3 +94,9 @@ span {
       background: url("../img/image-header-mobile.jpg");
       height: 15rem;
       background-size: cover; }
+      @media (min-width: 1080px) {
+        .card-img-src {
+          background: url("../img/image-header-desktop.jpg");
+          background-repeat: no-repeat;
+          background-size: cover;
+          height: 100%; } }
