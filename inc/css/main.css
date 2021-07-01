@@ -34,6 +34,8 @@ span {
 
 .card {
   background: #1b1938;
+  border-radius: 0.5rem;
+  overflow: hidden;
   display: grid;
   grid-template-areas: "image" "content"; }
   @media (min-width: 1080px) {
