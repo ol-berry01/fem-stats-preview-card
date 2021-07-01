@@ -39,5 +39,23 @@
 
   &-img {
     grid-area: image;
+    position: relative;
+
+    &-overlay {
+      background: $accent;
+      opacity: 0.9;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      mix-blend-mode: multiply;
+    }
+
+    &-src {
+      background: url("../img/image-header-mobile.jpg");
+      height: 15rem;
+      background-size: cover;
+    }
   }
 }
