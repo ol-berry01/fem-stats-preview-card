@@ -1,0 +1,23 @@
+{
+  "name": "fem-stats-preview-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ol-berry01/fem-stats-preview-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ol-berry01/fem-stats-preview-card/issues"
+  },
+  "homepage": "https://github.com/ol-berry01/fem-stats-preview-card#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
