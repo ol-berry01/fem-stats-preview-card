@@ -1,0 +1,16 @@
+.card {
+  background: $card-bg;
+  display: grid;
+  grid-template-areas:
+    "image"
+    "content";
+
+  &-body {
+    text-align: center;
+    grid-area: content;
+  }
+
+  &-img {
+    grid-area: image;
+  }
+}

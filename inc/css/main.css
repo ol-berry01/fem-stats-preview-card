@@ -4,3 +4,39 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700; }
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif; }
+
+span {
+  color: #aa5cdb; }
+
+.container {
+  background: #090b1a;
+  color: rgba(255, 255, 255, 0.75);
+  min-height: 100vh;
+  padding: 5.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.card {
+  background: #1b1938;
+  display: grid;
+  grid-template-areas: "image" "content"; }
+  .card-body {
+    text-align: center;
+    grid-area: content; }
+  .card-img {
+    grid-area: image; }
