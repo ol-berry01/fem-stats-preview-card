@@ -17,7 +17,8 @@ h6 {
 
 p {
   color: rgba(255, 255, 255, 0.75);
-  font-family: "Lexend Deca", sans-serif; }
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.5rem; }
 
 span {
   color: #aa5cdb; }
@@ -36,7 +37,22 @@ span {
   display: grid;
   grid-template-areas: "image" "content"; }
   .card-body {
+    padding: 2.825rem 2.125rem 2.5rem;
     text-align: center;
-    grid-area: content; }
+    grid-area: content;
+    letter-spacing: 1px; }
+    .card-body h1 {
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem; }
+    .card-body p {
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 2.375rem;
+      font-size: 0.8rem; }
+    .card-body-stats .stat h4 {
+      margin-bottom: 1rem;
+      font-size: 1.125rem; }
+    .card-body-stats .stat p {
+      font-size: 0.625rem;
+      text-transform: uppercase; }
   .card-img {
     grid-area: image; }
