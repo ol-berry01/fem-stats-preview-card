@@ -55,4 +55,18 @@ span {
       font-size: 0.625rem;
       text-transform: uppercase; }
   .card-img {
-    grid-area: image; }
+    grid-area: image;
+    position: relative; }
+    .card-img-overlay {
+      background: #aa5cdb;
+      opacity: 0.9;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      mix-blend-mode: multiply; }
+    .card-img-src {
+      background: url("../img/image-header-mobile.jpg");
+      height: 15rem;
+      background-size: cover; }
