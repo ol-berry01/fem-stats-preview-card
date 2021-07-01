@@ -36,18 +36,42 @@ span {
   background: #1b1938;
   display: grid;
   grid-template-areas: "image" "content"; }
+  @media (min-width: 1080px) {
+    .card {
+      max-width: 70rem;
+      grid-template-areas: "content image"; } }
   .card-body {
     padding: 2.825rem 2.125rem 2.5rem;
     text-align: center;
     grid-area: content;
-    letter-spacing: 1px; }
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 1080px) {
+      .card-body {
+        width: 50%;
+        padding-left: 4.375rem;
+        padding-right: 4.375rem;
+        text-align: left; } }
     .card-body h1 {
       margin-bottom: 1.5rem;
       font-size: 1.6rem; }
+      @media (min-width: 1080px) {
+        .card-body h1 {
+          font-size: 2rem; } }
     .card-body p {
       color: rgba(255, 255, 255, 0.6);
       margin-bottom: 2.375rem;
       font-size: 0.8rem; }
+      @media (min-width: 1080px) {
+        .card-body p {
+          font-size: 1rem;
+          margin-bottom: 1rem; } }
+    @media (min-width: 1080px) {
+      .card-body-stats {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-areas: "stat-1 stat-2 stat-3"; } }
     .card-body-stats .stat h4 {
       margin-bottom: 1rem;
       font-size: 1.125rem; }

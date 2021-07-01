@@ -5,24 +5,53 @@
     "image"
     "content";
 
+  @media (min-width: 1080px) {
+    max-width: 70rem;
+    grid-template-areas: "content image";
+  }
+
   &-body {
     padding: 2.825rem 2.125rem 2.5rem;
     text-align: center;
     grid-area: content;
     letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+
+    @media (min-width: 1080px) {
+      width: 50%;
+      padding-left: 4.375rem;
+      padding-right: 4.375rem;
+      text-align: left;
+    }
 
     h1 {
       margin-bottom: 1.5rem;
       font-size: 1.6rem;
+
+      @media (min-width: 1080px) {
+        font-size: 2rem;
+      }
     }
 
     p {
       color: $heading-stats;
       margin-bottom: 2.375rem;
       font-size: 0.8rem;
+
+      @media (min-width: 1080px) {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
     }
 
     &-stats {
+      @media (min-width: 1080px) {
+        margin-top: 5rem;
+        display: grid;
+        grid-template-areas: "stat-1 stat-2 stat-3";
+      }
+
       .stat {
         h4 {
           margin-bottom: 1rem;
