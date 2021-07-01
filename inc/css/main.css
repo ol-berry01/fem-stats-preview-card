@@ -4,8 +4,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
-<<<<<<< Updated upstream
-=======
 
 h1,
 h2,
@@ -58,4 +56,3 @@ span {
       text-transform: uppercase; }
   .card-img {
     grid-area: image; }
->>>>>>> Stashed changes

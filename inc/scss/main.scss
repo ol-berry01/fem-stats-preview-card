@@ -1,8 +1,11 @@
-// resets
-@import "./base/resets.scss";
+// variables
+@import "./base/variables";
 
 // fonts
 @import "./base/fonts";
 
-// variables
-@import "./base/variables";
+// resets
+@import "./base/resets.scss";
+
+// components
+@import "./components/card";
