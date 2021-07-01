@@ -4,3 +4,58 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
+<<<<<<< Updated upstream
+=======
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-weight: 700; }
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 1.5rem; }
+
+span {
+  color: #aa5cdb; }
+
+.container {
+  background: #090b1a;
+  color: rgba(255, 255, 255, 0.75);
+  min-height: 100vh;
+  padding: 5.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.card {
+  background: #1b1938;
+  display: grid;
+  grid-template-areas: "image" "content"; }
+  .card-body {
+    padding: 2.825rem 2.125rem 2.5rem;
+    text-align: center;
+    grid-area: content;
+    letter-spacing: 1px; }
+    .card-body h1 {
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem; }
+    .card-body p {
+      color: rgba(255, 255, 255, 0.6);
+      margin-bottom: 2.375rem;
+      font-size: 0.8rem; }
+    .card-body-stats .stat h4 {
+      margin-bottom: 1rem;
+      font-size: 1.125rem; }
+    .card-body-stats .stat p {
+      font-size: 0.625rem;
+      text-transform: uppercase; }
+  .card-img {
+    grid-area: image; }
+>>>>>>> Stashed changes

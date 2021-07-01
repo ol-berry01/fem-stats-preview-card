@@ -1,0 +1,43 @@
+.card {
+  background: $card-bg;
+  display: grid;
+  grid-template-areas:
+    "image"
+    "content";
+
+  &-body {
+    padding: 2.825rem 2.125rem 2.5rem;
+    text-align: center;
+    grid-area: content;
+    letter-spacing: 1px;
+
+    h1 {
+      margin-bottom: 1.5rem;
+      font-size: 1.6rem;
+    }
+
+    p {
+      color: $heading-stats;
+      margin-bottom: 2.375rem;
+      font-size: 0.8rem;
+    }
+
+    &-stats {
+      .stat {
+        h4 {
+          margin-bottom: 1rem;
+          font-size: 1.125rem;
+        }
+
+        p {
+          font-size: 0.625rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  &-img {
+    grid-area: image;
+  }
+}

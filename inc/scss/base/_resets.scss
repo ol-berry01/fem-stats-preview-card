@@ -3,3 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
+<<<<<<< Updated upstream
+=======
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: $heading;
+  font-family: $font-inter;
+  font-weight: 700;
+}
+
+p {
+  color: $paragraph;
+  font-family: $font-lexend;
+  line-height: 1.5rem;
+}
+
+span {
+  color: $accent;
+}
+
+.container {
+  background: $background;
+  color: $paragraph;
+  min-height: 100vh;
+  padding: 5.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+>>>>>>> Stashed changes
